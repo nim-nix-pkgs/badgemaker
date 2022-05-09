@@ -7,37 +7,8 @@
   "license": "AGPLv3",
   "web": "https://github.com/ethosa/badgemaker",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/ethosa/badgemaker/': Error in the HTTP2 framing layer",
     ""
   ],
-  "heads": [
-    {
-      "name": "badgemaker",
-      "version": "0.0.9",
-      "author": "Ethosa",
-      "desc": "The Nim badgemaker tool.",
-      "license": "AGPLv3",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.0.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.0.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "badgemaker",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
