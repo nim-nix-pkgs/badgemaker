@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."badgemaker-master".dir   = "master";
-  inputs."badgemaker-master".owner = "nim-nix-pkgs";
-  inputs."badgemaker-master".ref   = "master";
-  inputs."badgemaker-master".repo  = "badgemaker";
-  inputs."badgemaker-master".type  = "github";
-  inputs."badgemaker-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."badgemaker-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
