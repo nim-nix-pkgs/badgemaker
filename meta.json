@@ -7,7 +7,7 @@
   "license": "AGPLv3",
   "web": "https://github.com/ethosa/badgemaker",
   "refs": [
-    "fatal: unable to access 'https://github.com/ethosa/badgemaker/': Error in the HTTP2 framing layer",
+    "fatal: unable to access 'https://github.com/ethosa/badgemaker/': SSL connection timeout",
     ""
   ],
   "heads": []
